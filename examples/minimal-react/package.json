@@ -11,6 +11,7 @@
     "build": "run-s build:server build:client",
     "dev:client": "npm run dev -w client",
     "dev:server": "npm run dev -w server",
+    "dev:postgrest": "cd postgrest && postgrest postgrest.conf",
     "dev": "run-p dev:*",
     "start:client": "npm run start -w client",
     "start:server": "npm run start -w server",
